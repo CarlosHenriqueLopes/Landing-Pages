@@ -2,6 +2,90 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
 :root{
-    --font1:var(font-family: 'Righteous', cursive;)
+    --right: 'Righteous', 'cursive';
+    --sarala: 'Sarala', sans-serif
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to right, #2f2325, #8e5d52, #90675e);
+    padding: 2%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header > img{
+    height: 72px;
+}
+
+header > nav{
+    display: flex;
+    gap: 32px;
+}
+
+header a{
+    text-decoration: none;
+    color: #251d1e;
+    font-weight: bold;
+    font-family: var(--sarala);
+}
+
+header a:hover{
+    text-shadow: 1px 1px 6px white;
+}
+
+section.primeira{
+    border-top: 0.4px solid white;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section.primeira div{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+section.primeira h1{
+    font-family: var(--right);
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+section.primeira h2{
+    font-family:var(--sarala);
+    font-weight: bold;
+}
+
+section.primeira button{
+    padding: 5px;
+    width: 25%;
+    border-radius: 10px;
+    border: none;
+    color: rgb(28, 122, 203);
+}
+
+section.primeira button p{
+    font-family: var(--sarala);
+    color: aquamarine;
+}
+
+section.primeira > img{
+    padding-top: 20px;
+    flex-direction: row;
 }
