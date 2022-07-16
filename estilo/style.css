@@ -6,16 +6,20 @@
 
 :root{
     --right: 'Righteous', 'cursive';
-    --sarala: 'Sarala', sans-serif
+    --sarala: 'Sarala', sans-serif;
+
+    --cor1: var('#0B3B59');
+    --cor2: var('#115D8C');
+    --cor3: var('#F0F1F2');
 }
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0vh;
+    padding: 0vh;
 }
 
 body{
-    background-image: linear-gradient(to right, #2f2325, #8e5d52, #90675e);
+    background-image: linear-gradient(to right, #0B3B59, #115d8c, #F0F1F2);
     padding: 2%;
 }
 
@@ -28,6 +32,7 @@ header{
 
 header > img{
     height: 72px;
+    padding-bottom: 20px;
 }
 
 header > nav{
@@ -37,13 +42,14 @@ header > nav{
 
 header a{
     text-decoration: none;
-    color: #251d1e;
+    color: #000000;
     font-weight: bold;
     font-family: var(--sarala);
 }
 
 header a:hover{
-    text-shadow: 1px 1px 6px white;
+    text-shadow: 1px 1px 10px rgb(4, 208, 249);
+    text-decoration: underline;
 }
 
 section.primeira{
@@ -77,15 +83,54 @@ section.primeira button{
     width: 25%;
     border-radius: 10px;
     border: none;
-    color: rgb(28, 122, 203);
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.705);
+}
+
+section.primeira button:hover{
+    box-shadow: 1px 1px 10px rgb(4, 208, 249);
+    border-color: aqua;
+    border: 1px solid aqua;
 }
 
 section.primeira button p{
     font-family: var(--sarala);
-    color: aquamarine;
+    color: black;
 }
 
 section.primeira > img{
-    padding-top: 20px;
+    padding-top: 25px;
     flex-direction: row;
+}
+
+section.segunda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding-top: 48px;
+    border-top: 0.4px solid white;
+}
+
+section.segunda > h3{
+    text-align: center;
+    font-family: var(--sarala);
+    font-size: 20px;
+    color: black;
+    padding-top: 3px;
+}
+
+section.segunda > p{
+    font-family: var(--sarala);
+    font-size: 18px;
+    font-weight: 300px;
+    text-align: center;
+    color: black;
+    padding-bottom: 3%;
+}
+
+footer{
+    color: white;
+    border-top: 0.4px solid white;
+    padding: 48px
 }
