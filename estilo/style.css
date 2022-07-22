@@ -21,6 +21,7 @@
 body{
     background-image: linear-gradient(to right, #0B3B59, #115d8c, #F0F1F2);
     padding: 2%;
+    min-width: 900px;
 }
 
 header{
