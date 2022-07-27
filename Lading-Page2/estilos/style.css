@@ -71,7 +71,7 @@ p{
 }
 
 img{
-    width: 580px;
+    width: 600px
 }
 
 form{
@@ -104,10 +104,6 @@ form [type="submit"]{
 
     h1{
         text-align: center;
-    }
-
-    nav{
-    
     }
 
     ul{
