@@ -242,3 +242,151 @@ h3{
 .section3-description ul li:last-child{ /*pegar o ultimo elemento da li*/
     font-weight: bold;
 }
+
+#section4{
+    background-image: url("../imagens/hrz-6.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#section4 h3{
+    margin-bottom: 2.2em;
+    font-size: 2.2em;
+    font-weight: 500;
+}
+
+#section4 button{
+    width: 30%;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+
+    color: gray
+}
+
+footer > h3{
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+footer > p:nth-child(2){ /*selecionar tag (n = filho)*/
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+
+footer span{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 450px){
+
+    .botao{
+        opacity: 1;
+    }
+
+    header{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .descrição{
+        padding: 2em;
+    }
+
+    .descrição h2{
+        margin-bottom: 0.5em;
+    }
+
+    form{
+        max-width: 70%;
+        margin-bottom: 2em;
+    }
+
+    .beneficios{
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        padding: 2em;
+    }
+
+    .box-beneficios-img{
+        max-width: 100%;
+        margin-bottom: 2em;
+    }
+
+    #section2{
+        flex-direction: column;
+        height: auto;
+        padding: 2em 0em;
+        text-align: center;
+    }
+
+    #div1{
+        order: 2;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    #div1 i{
+        margin: 0.3em 0em;
+    }
+
+    #div2{
+        order: 1;
+        max-width: 100%;
+    }
+
+    #div2 h3{
+        margin-bottom: 0;
+    }
+
+    #div2 p{
+        display: none;
+    }
+
+    .box-section3 img{
+        width: 100%;
+        margin: 2em 0em;
+    }
+
+    #section3-img1{
+        display: none;
+    }
+
+    .section3-description{
+        padding: 0;
+    }
+
+    #section3-img2{
+        order: 2;
+    }
+
+    #section3-img3{
+        order: 2;
+    }
+
+    #section3-img1 .section3-description{
+        order: 1;
+    }
+
+    #section4 h3{
+        text-align: center;
+    }
+
+    #section4 .botao{
+        width: 80%;
+    }
+}
