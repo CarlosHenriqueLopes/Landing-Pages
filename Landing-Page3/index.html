@@ -15,7 +15,7 @@
         <div class="descrição">
             <h2>Nome do site</h2>
 
-            <p class="first p">
+            <p class="first-p">
                 Um evento para revolucionar a sua criatividade
             </p>
 
@@ -29,18 +29,36 @@
         </div>
 
         <div class="form">
+            <P>Preencha o formulário para receber os detalhes do evento</P>
+
             <form action="#" method="get" autocomplete="off">
-                <label for="inome">Nome</label>
-                <input type="text" name="nome" id="inome" required minlength="8" maxlength="20" placeholder="Digite seu nome">
+                <div class="input-group">
+                    <label for="inome">Nome</label>
+                    <input type="text" name="nome" id="inome" required minlength="8" maxlength="20" placeholder="Digite seu nome">
+                </div>
 
-                <label for="iem">E-mail</label>
-                <input type="email" name="em" id="iem" required placeholder="Digite seu e-meil">
+                <div class="input-group">
+                    <label for="iem">E-mail</label>
+                    <input type="email" name="em" id="iem" required placeholder="Digite seu e-meil">
+                </div>
 
-                <label for="itel">Telefone</label>
-                <input type="tel" name="tel" id="itel" required placeholder="Whatssap">
+                <div class="input-group">
+                    <label for="itel">Telefone</label>
+                    <input type="tel" name="tel" id="itel" required placeholder="Whatssap">
+                </div>
 
-                <label for="ipi">Principal Interessado</label>
-                <input type="text" name="pi" id="ipi" required placeholder="Selecione">
+                <div class="input-group">
+                    <label for="ipi">Principal Interessado</label>
+                    <input type="text" name="pi" id="ipi" required placeholder="Digite ou Selecione >" list="interessado">
+                    <datalist id="interessado">
+                        <option value="house">Casa</option>
+                        <option value="garden">Jardim</option>
+                        <option value="interior">Interior</option>
+                        <option value="other">Outros/Digete</option>
+                    </datalist>
+                </div>
+
+                <input type="submit" value="QUERO ME INSCREVER">
             </form>
         </div>
     </header>
