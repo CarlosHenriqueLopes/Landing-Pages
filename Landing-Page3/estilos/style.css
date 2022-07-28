@@ -21,6 +21,8 @@
     box-sizing: border-box;
 }
 
+
+/*Primeiro bloco do site*/
 header{
     background-image: url("../imagens/hrz-5.jpg");
     background-position: center;
@@ -57,5 +59,186 @@ header{
 }
 
 .data-style{
+    font-weight: bold;
+}
+
+.form{
+    background-color: grey;
+    padding: 2em;
+    max-width: 22%; /*lembrete: tamanho ideal para computadores*/
+}
+
+.form p{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: black;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.8em;
+}
+
+.form label{
+    color: black;
+    margin-bottom: 0.3;
+    font-weight: bold;
+}
+
+.form input{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 6px 8px;
+}
+
+.botao{
+    background-color: purple;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    opacity: 2s;
+}
+
+.botao:hover{
+    opacity: 1;
+}
+
+
+/*Segundo bloco do site*/
+#section1 h2{
+    background-color: grey;
+    text-align: center;
+    padding: 2em;
+    font-weight: 500;
+}
+
+.beneficios{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding: 4em;
+    margin: 0 auto;
+}
+
+.box-beneficios-img{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20%;
+}
+
+.img-box{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+}
+
+#img1{
+    background-image: url("../imagens/sqr-1.jpg");
+}
+
+#img2{
+    background-image: url("../imagens/sqr-2.jpg");
+}
+
+#img3{
+    background-image: url("../imagens/hrz-3.jpg");
+}
+
+#section2{
+    background-image: url("../imagens/hrz-3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3em;
+    color: white;
+}
+
+#div1, #div2{
+    max-width: 30%;
+}
+
+#div1{
+    display: flex;
+}
+
+#div1 i{
+    font-size: 4em;
+    margin-right: 0.5em;
+    color: purple;
+}
+
+.p-section2{
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#div2 h3{
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    color: purple;
+}
+
+#div2 p{
+    line-height: 1.3em; /*OBS: nome obvio*/
+}
+
+
+/*Terceiro bloco do site*/
+#section3{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.box-section3{
+    display: flex;
+    align-items: flex-start; /*alinhamento partindo do inicio*/
+    justify-content: space-between;
+    gap: 5%; /*distanciamento interno do flexbox*/
+    margin-bottom: 4em;
+}
+
+.box-section3{
+    width: 100%;
+    padding-left: 2em;
+}
+
+.box-section3 img{
+    width: 50%;
+}
+
+h3{
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+#section3-img1 h3{
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.section3-description ul{
+    list-style-position: inside; /*posicionamentos mardores li*/
+}
+
+.section3-description ul li{
+    margin-bottom: 0.4em;
+}
+
+.section3-description ul li:last-child{ /*pegar o ultimo elemento da li*/
     font-weight: bold;
 }
