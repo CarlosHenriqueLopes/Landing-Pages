@@ -70,10 +70,6 @@ p{
     font-family: poppins;
 }
 
-img{
-    width: 600px
-}
-
 form{
     display: flex;
     flex-direction: column;
@@ -95,6 +91,16 @@ form [type="submit"]{
     background-color: blueviolet;
     color: white;
     font-weight: bold;
+}
+
+article{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+img{
+    width: 600px
 }
 
 @media screen and (max-width: 760px){
