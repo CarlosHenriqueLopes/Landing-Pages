@@ -286,7 +286,7 @@ footer{
     justify-content: center;
     height: 250px;
     background-color: var(--verde);
-    color: gray
+    color: gray;
 }
 
 footer > h3{
