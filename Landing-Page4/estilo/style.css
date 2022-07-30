@@ -148,6 +148,7 @@ main{
 .box-btns button:hover:before{
     width: 100%;
     border-radius: 20px; /*msm do botao*/
+    border: 2px solid burlywood;
     height: 58px; /*msm do botao*/
     background-color: cadetblue;
     transition: 0.5s;
