@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1250px){
+    .nav-bar{
+        position: relative;
+    }
+
+    .link-box{
+        display: none;
+    }
+
+    #section1{
+        margin-right: 8rem;
+        margin-top: 1rem;
+    }
+
+    .titulo-box{
+        width: 80%;
+        text-align: center;
+    }
+
+    .titulo-box button{
+        width: 100%;
+    }
+
+    img{
+        display: none;
+    }
+
+    .box-info{
+        display: block;
+        padding: 100px;
+    }
+
+    .info1{
+        width: 80%;
+    }
+
+    .info2{
+        width: 80%;
+    }
+
+    .info3{
+        width: 80%;
+    }
+}
