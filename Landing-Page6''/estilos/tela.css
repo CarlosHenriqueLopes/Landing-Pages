@@ -28,19 +28,24 @@
     }
 
     .box-info{
-        display: block;
-        padding: 100px;
+        flex-direction: column;
+        padding: 100px 100px 0px 100px;
+        margin-top: 0;
     }
 
     .info1{
         width: 80%;
+        margin-left: 20px;
+        margin-bottom: 100px;
     }
 
     .info2{
         width: 80%;
+        margin-bottom: 100px;
     }
 
     .info3{
         width: 80%;
+        padding: 20px;
     }
 }
