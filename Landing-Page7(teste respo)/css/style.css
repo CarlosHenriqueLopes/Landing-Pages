@@ -1,0 +1,57 @@
+@charset "UFT-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(93, 90, 90);
+}
+
+header{
+    background-color: rgb(47, 56, 56);
+}
+
+
+header h1{
+    text-align: center;
+    color: whitesmoke;
+}
+
+ul{
+    display: flex;
+    margin: 20px;
+}
+
+li{
+    margin: 10px;
+    background-color: grey;
+    list-style: none;
+    padding: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    width: 600px;
+    margin: auto;
+    background-color: rgba(245, 245, 245, 0.812);
+    border-radius: 5px;
+    padding: 15px;
+    line-height: 20px;
+}
+
+footer{
+    background-color: rgb(47, 56, 56);
+    text-align: center;
+    height: 100px;
+    padding-top: 30px;
+    margin-top: 30px;
+    color: whitesmoke;
+}
+
