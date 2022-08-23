@@ -1,0 +1,22 @@
+@media screen and (max-width: 480px){
+    menu{
+        display: block;
+    }
+
+    a{
+        display: block;
+        padding: 10px;
+        background-color: darkcyan;
+        text-align: center;
+        margin-top: 2px solid black;
+    }
+
+    a:hover{
+        background-color: lightslategray;
+    }
+
+    main{
+        width: 90%;
+        background-color: yellowgreen;
+    }
+}
