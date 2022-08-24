@@ -18,27 +18,35 @@ header{
 header h1{
     text-align: center;
     color: whitesmoke;
+    padding: 10px;
+    text-shadow: 1px 1px 0px black;
+}
+
+menu{
+    display: block;
 }
 
 ul{
-    display: flex;
-    margin: 20px;
-}
-
-li{
-    margin: 10px;
-    background-color: grey;
-    list-style: none;
-    padding: 8px;
+    list-style-type: none;
 }
 
 a{
+    display: block;
+    padding: 10px;
+    text-align: center;
     text-decoration: none;
+    background-color: darkgray;
     color: black;
+    border-top: 2px solid black;
+}
+
+a:hover{
+    background-color: darkorchid;
+    color: whitesmoke;
 }
 
 main{
-    width: 600px;
+    width: 90%;
     margin: auto;
     background-color: rgba(245, 245, 245, 0.812);
     border-radius: 5px;
