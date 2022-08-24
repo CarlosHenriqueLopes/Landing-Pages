@@ -11,7 +11,7 @@ body{
 }
 
 header{
-    background-color: rgb(47, 56, 56);
+    background-color: rgb(72, 85, 85);
 }
 
 
@@ -22,7 +22,25 @@ header h1{
     text-shadow: 1px 1px 0px black;
 }
 
+#burguer{
+    display: block;
+    color: whitesmoke;
+    background-color: darkcyan;
+    text-align: center;
+    padding: 8px;
+}
+
+#burguer:hover{
+    color: darkcyan;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
 menu{
+    display: none;
+}
+
+.ativar{
     display: block;
 }
 
@@ -41,8 +59,9 @@ a{
 }
 
 a:hover{
-    background-color: darkorchid;
+    background-color: darkcyan;
     color: whitesmoke;
+    cursor: pointer;
 }
 
 main{
@@ -51,6 +70,7 @@ main{
     background-color: rgba(245, 245, 245, 0.812);
     border-radius: 5px;
     padding: 15px;
+    margin-top: 30px;
     line-height: 20px;
     text-indent: 20px;
 }
