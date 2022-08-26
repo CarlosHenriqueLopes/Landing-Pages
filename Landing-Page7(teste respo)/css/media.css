@@ -1,22 +1,50 @@
-@media screen and (max-width: 480px){
-    menu{
+@media screen and (max-width: 780px){
+    #burguer{
         display: block;
+        color: whitesmoke;
+        background-color: rgb(47, 56, 56);
+        text-align: center;
+        padding: 8px;
+    }
+    
+    #burguer:hover{
+        color: darkcyan;
+        background-color: whitesmoke;
+        cursor: pointer;
+    }
+    
+    menu{
+        display: none;
+    }
+
+    ul{
+        list-style-type: none;
     }
 
     a{
         display: block;
         padding: 10px;
-        background-color: darkcyan;
         text-align: center;
-        margin-top: 2px solid black;
+        text-decoration: none;
+        background-color: darkgray;
+        color: black;
+        border-top: 2px solid black;
     }
 
     a:hover{
-        background-color: lightslategray;
+        background-color: darkcyan;
+        color: whitesmoke;
+        cursor: pointer;
     }
 
     main{
         width: 90%;
-        background-color: yellowgreen;
+        margin: auto;
+        background-color: green;
+        border-radius: 5px;
+        padding: 15px;
+        margin-top: 30px;
+        line-height: 20px;
+        text-indent: 20px;
     }
 }
