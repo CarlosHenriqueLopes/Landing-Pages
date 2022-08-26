@@ -25,25 +25,17 @@ header h1{
 }
 
 menu{
-    padding: 15px 100px;
+    display: none;
 }
 
 ul{
-    display: flex;
-    justify-content: center;
     background-color: rgba(245, 245, 245, 0.812);
     list-style: none;
-    gap: 100px;
     padding: 10px 10px;
 }
 
-/*li{
-    padding: 8px 30px;
-    background-color: rgba(245, 245, 245, 0.812);
-    border: 1px solid black;
-}*/
-
 a{
+    display: block;
     text-decoration: none;
     color: black;
 }

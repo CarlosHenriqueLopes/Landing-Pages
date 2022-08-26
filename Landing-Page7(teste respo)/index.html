@@ -15,7 +15,7 @@
 
     <!--<script src="JS/JavaScript.js"></script>-->
 </head>
-<body>
+<body onresize="tamanho()">
     <header>
         <h1>Site testando responcividade</h1>
 
@@ -52,6 +52,15 @@
     </footer>
 
     <script>
+
+        function tamanho(){
+            if (window.innerWidth >= 768){
+                IDMenu.style.display = 'block'
+            } else {
+                IDMenu.style.display = 'none'
+            }
+        }
+
         function mostrar(){
             if (IDMenu.style.display == 'block'){
                 IDMenu.style.display = 'none'
