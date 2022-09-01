@@ -12,28 +12,15 @@
         background-color: whitesmoke;
         cursor: pointer;
     }
-    
+
     li{
         display: inline-block;
+        width: 100%;
+        text-align: center;
     }
 
     ul{
         list-style-type: none;
-    }
-
-    a{
-        padding: 10px;
-        text-align: center;
-        text-decoration: none;
-        background-color: darkgray;
-        color: black;
-        border-top: 2px solid black;
-    }
-
-    a:hover{
-        background-color: darkcyan;
-        color: whitesmoke;
-        cursor: pointer;
     }
 
     main{

@@ -1,6 +1,9 @@
-const burguer = window.document.querySelector('#burguer')
-const menu_ = window.document.querySelector('menu#IDMenu')
+const menu_ = window.document.getElementById('IDMenu')
 
 function mostrar(){
-    menu_.style.display = 'block'
+    if (menu_.style.display == 'block'){
+        menu_.style.display = 'none'
+    } else {
+        menu_.style.diaply = 'block'
+    }
 }
